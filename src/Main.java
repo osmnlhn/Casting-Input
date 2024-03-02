@@ -36,7 +36,15 @@ public class Main {
             System.out.println(i +"x" + myInt +":"+ (i*myInt) );
         }
 
+        System.out.println();
+        System.out.println("Enter a String:");
+        String myStr=scan.next();
 
+        for (int u=0;u<myStr.length();u++){
+            System.out.println(myStr.charAt(u));
+        }
+
+        scan.close();
 
 
 
